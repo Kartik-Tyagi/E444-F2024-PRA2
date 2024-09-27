@@ -1,0 +1,36 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    text-emphasis-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item1 {
+    width: 5%;
+    height: 50%;
+    color: lightgray;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+.menu-item2 {
+    width: 5%;
+    height: 50%;
+    color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.intro {
+    font-size: 40px;
+}
